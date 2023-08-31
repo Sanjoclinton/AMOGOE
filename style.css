@@ -1,0 +1,237 @@
+/* CSS GENERAL STYLES */
+html *, div {
+    Padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+ a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS OUTER GRID STYLES */
+.outer-grid {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas:
+        "alias-header"
+        "alias-main";
+}
+
+header {
+    grid-area: alias-header;
+    background-color: #212336;
+    padding: 2% 10%;
+}
+
+main {
+    grid-area: alias-main;
+    background-color: #23263A;
+    padding: 10% 10% 0 10%;
+}
+
+/* HEADER FLEX STYLES */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#red-letter {
+    color: #FF4A57; /*the orange color*/
+}
+
+.right-header {
+    display: flex;
+}
+
+.right-header a {
+    margin-right: 15px;
+}
+
+#last-nav {
+    margin-right: 0;
+}
+
+/* MAIN BODY CSS */
+.sections {
+    margin-bottom: 100px;
+}
+/* SECTION-1 CSS */
+
+.section-1 button {
+    border: none;
+    padding: 20px 45px;
+    background-color: #FF4A57;
+    color: white;
+}
+
+/* SECTION-1 FLEX DESIGN */
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* LEFT SECTION01 CSS STYLES */
+.left-section-1 * {
+    margin-bottom: 15px;
+}
+
+.left-section-1 p {
+    width: 330px;
+    opacity: 0.5;
+}
+
+.left-section-1 h1 {
+    font-size: 4rem;
+}
+
+/* RIGHT SECTION-1 CSS STYLE */
+.right-section-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.colored-circle {
+    background-color:#FF4A57;
+}
+
+.transparent-cirlce {
+    border: 2px solid #FF4A57
+}
+
+.line {
+    height: 50px;
+    width: 2px;
+    background-color:#FF4A57;
+}
+
+/* SECTION 2 CSS LAYOUT */
+.section-2 h1{
+    font-size: 3rem;
+}
+
+.skill-set-underline {
+    height: 8px;
+    width: 95px;
+    background-color:#FF4A57;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* SERVICES grid CSS LAYOUT */
+.services-grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    justify-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.services {
+
+    width: 250px;
+    padding: 50px 10px 15px 15px;
+    background-color:#2B2D41;
+}
+
+.services *{
+    margin-bottom: 15px;
+    padding
+}
+
+.fa-brands {
+    margin-bottom: 30px;
+}
+
+/* SECTION 2 GRID + circle line pattern */
+.section-2-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-section-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SECTION 3 CSS LAYOUT */
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-3-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#connect {
+    font-size: 2rem;
+    color: #FF4A57;
+}
+
+.section-3-left * {
+    border: none;
+    margin-top: 20px;
+}
+
+.section-3 button {
+    border: none;
+    padding: 15px;
+    background-color: #FF4A57;
+    color:#23263A;
+    width: 50%;
+    margin-left: auto;
+}
+
+.section-3 input {
+    border: none;
+    padding: 20px 150px 20px 20px;
+    background-color: #2B2D41;
+    color: black;
+    
+}
+
+.section-3-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP FIRST DESIGN */
+@media (max-width: 992px) {
+
+}
+
